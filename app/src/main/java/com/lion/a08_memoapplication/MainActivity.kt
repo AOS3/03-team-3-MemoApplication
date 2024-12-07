@@ -209,7 +209,7 @@ class MainActivity : AppCompatActivity() {
             inputManager.showSoftInput(view, 0)
         }
     }
-    // 키보드를 내리는 메서드
+    // 키보드 내리는 메서드
     fun hideSoftInput(){
         // 포커스가 있는 뷰가 있다면
         if(currentFocus != null){
